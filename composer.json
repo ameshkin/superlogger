@@ -1,0 +1,29 @@
+{
+  "name": "ameshkin/superlogger",
+  "version": "1.0.0",
+  "description": "Simple but powerful logging script that builds on psr/log LoggerInterface, with env files, custom log paths and more",
+  "keywords": ["logs, logger, php logs, logging"],
+
+  "require-dev": {
+    "mmucklo/krumo": "*",
+    "php": ">=5.3",
+    "psr/log": "^1.0.0",
+    "vlucas/phpdotenv": "^5.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amir Meshkin",
+      "email": "amir.meshkin@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ameshkin\\Logger\\": "src/"
+    },
+    "classmap": ["src/"]
+  },
+  "extra": {
+    "class": "Ameshkin\\Logger"
+  }
+}
