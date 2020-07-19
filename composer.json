@@ -2,8 +2,6 @@
   "name": "ameshkin/superlogger",
   "version": "1.0.0",
   "description": "Simple but powerful logging script that builds on psr/log LoggerInterface, with env files, custom log paths and more",
-  "keywords": ["logs, logger, php logs, logging"],
-
   "require-dev": {
     "mmucklo/krumo": "*",
     "php": ">=5.3",
